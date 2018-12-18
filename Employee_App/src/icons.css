@@ -1,0 +1,58 @@
+.delete{
+    background:url('Delete.png');
+    background-size: contain;
+    width:25px;
+    height:25px;
+    border:0;
+}
+.edit{
+    background: url('Edit.png');
+    background-size:contain;
+    width:25px;
+    height:25px;
+    border:0;
+}
+.view{
+    background: url('view.png');
+    background-size:contain;
+    width:25px;
+    height:25px;
+    border:0;
+}
+.table{
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.add-work-exp{
+    background:url('add.png');
+    background-size: contain;
+    width:20px;
+    float:right;
+    height:20px;
+    border:0;
+}
+.close-button{
+    background:url('close.png');
+    background-size: contain;
+    width:25px;
+    height:25px;
+    position: absolute;
+    top:1px;
+    right:2px;
+    border:0;
+}
+.insert{
+    background:url('newEmp.jpeg');
+    background-size: contain;
+    width:30px;
+    margin-top:30px;
+    float:left;
+    vertical-align: bottom;
+    display: inline-block;
+    height:30px;
+    border:0;
+}
+.button{
+    margin-left:20px;
+}

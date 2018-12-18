@@ -1,0 +1,140 @@
+.tb{
+    border:2px solid black;
+    margin-top:100px;
+    padding-top:20px;
+    border-radius:5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+}
+.header{
+    position: fixed;
+    top:0;
+    width:100%;
+    height:50px;
+    background-color:#053c93;
+}
+.header-image{
+    margin-top:5px;
+    margin-left:5px;
+    width:70px;
+    height:39px;
+}
+.table-second-column-field{
+    padding-left:15px;
+}
+.header-image:hover{
+    cursor: pointer;
+}
+.header-options-div{
+    float: right;
+    margin-right: 2rem;
+    margin-top:18px;
+
+}
+#grid-name{
+    margin-left:5px;
+    margin-top:1px;
+    font-size:15px;
+    vertical-align: top;
+    display:inline-block;
+}
+.grid-heading{
+    width:98.3%;
+    height:20px;
+    padding:5px;
+    background-color:#efefef;
+    border:1px solid #cecece;
+}
+.header-options{
+    color:white;
+    font-weight: bolder;
+    margin-right:20px;
+}
+.header-options:hover{
+    background:white;
+    color:#053c93;
+    cursor: pointer;
+    border-radius: 5px;
+    padding:auto;
+    /*padding:5px 12px;*/
+}
+.submit-button{
+    display: inline-block !important;
+}
+.show-button{
+    display: inline-block !important;
+    margin-left:30px;
+}
+.next__button{
+    background:url('right.png');
+    background-size: contain;
+    border:0;
+    width:25px;
+    height:25px;
+}
+.prev__button{
+    background:url('left.png');
+    background-size: cover;
+    border:0;
+    margin-right: 10px;
+    width:25px;
+    height:25px;
+}
+#message{
+    position: absolute;
+    top:30vh;
+    left:40vw;
+}
+#page-buttons{
+    float:right;
+    margin-top:3px;
+    margin-right:50px;
+}
+#pages{
+    margin-left:5px;
+}
+#of__Page{
+    margin-left:5px;
+}
+.search-box{
+    display: inline-block;
+    margin: auto;
+}
+.search-button{
+    background: url('search.png');
+    background-size:cover;
+    width:30px;
+    height:30px;
+    position: relative;
+    top:10px;
+    border:0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top:10px;
+}
+#value{
+    height:24px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 0;
+}
+.menu-bar{
+    display: inline-block;
+    width:100%;
+    margin-top:30px;
+    margin-bottom: 3px;
+}
+.reset-button{
+    display: inline-block;
+    background: url('reset.jpg');
+    background-size:cover;
+    width:30px;
+    border-radius: 5px;
+    height:30px;
+    position: relative;
+    bottom:17px;
+    margin-left:5px;
+    border:0;
+}
+
